@@ -25,7 +25,7 @@ public class Buginfestation {//class name BugInsfestation
 	/**
 	 * this method calculate weeks, amount of bug, and bug's cubic volume
 	 */
-	public void mCalculateBug() {//this is method for calulate
+	public void mCalculateBug() {// this is method for calulate
 		int startPopulation;//declare startPopulation
 		double houseVolume;//declare houseVolume type is double
 		double newBugs=0;//declare newBugs to calculate amount of bug;
