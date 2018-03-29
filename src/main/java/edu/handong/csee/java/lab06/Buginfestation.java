@@ -3,16 +3,11 @@ package edu.handong.csee.java.lab06;//this is a package name
 import java.util.Scanner;//import for using scanner class
 /**
  * This calculate how many roaches fill your house
- * and hou much time taken.
+ * and how much time taken.
  * @author samsung
  *
  */
 
-
-/**
- * This class is for practicing loop sentence.
- * 
- */
 public class Buginfestation {//class name BugInsfestation
 	
 	final double ONE_BUG_VOLUME=0.002;//define member variable about bug volume
