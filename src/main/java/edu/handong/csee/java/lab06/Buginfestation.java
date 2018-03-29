@@ -2,10 +2,16 @@ package edu.handong.csee.java.lab06;//this is a package name
 
 import java.util.Scanner;//import for using scanner class
 /**
- * This calculate how many roaches fill your house/n
+ * This calculate how many roaches fill your house
  * and hou much time taken.
  * @author samsung
  *
+ */
+
+
+/**
+ * This class is for practicing loop sentence.
+ * 
  */
 public class Buginfestation {//class name BugInsfestation
 	
@@ -25,11 +31,11 @@ public class Buginfestation {//class name BugInsfestation
 	/**
 	 * this method calculate weeks, amount of bug, and bug's cubic volume
 	 */
-	public void mCalculateBug() {// this is method for calulate
+	public void mCalculateBug() {// this is method for calculate
 		int startPopulation;//declare startPopulation
 		double houseVolume;//declare houseVolume type is double
 		double newBugs=0;//declare newBugs to calculate amount of bug;
-		double newBugVolume=0;//declare newVolume to calculate amount of bugvolume;
+		double newBugVolume=0;//declare newVolume to calculate amount of bug's volume;
 		int countWeeks=0;//declare countWeeks to calculate weeks;
 		
 		Scanner keyboard=new Scanner(System.in);//to receive input from keyboard
@@ -40,7 +46,7 @@ public class Buginfestation {//class name BugInsfestation
 		System.out.print("roaches in your house : ");//printout a sentence "roaches in your house : "
 		startPopulation = keyboard.nextInt();//receive value from keyboard and value mean beginning roches's population
 		System.out.println("Starting with a roach population of "+startPopulation);//printout a sentence "Starting with a roach population of "+startPopulation's value
-		System.out.println("and a house wiht a volume of " +houseVolume+"cubic feet,");//printout a sentence "and a house wiht a volume of " +houseVolume's value +"cubic feet,"
+		System.out.println("and a house wiht a volume of " +houseVolume+"cubic feet,");//printout a sentence "and a house with a volume of " +houseVolume's value +"cubic feet,"
 		double population = startPopulation;//declare population and define population
 		double totalBugVolume = population*ONE_BUG_VOLUME;//declare totalBugVolume and define totalBugVolume
 		
